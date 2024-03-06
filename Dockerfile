@@ -3,8 +3,8 @@ FROM eclipse-temurin:17-jre-alpine
 EXPOSE 3000
 WORKDIR /home
 
-COPY run.sh /home
+COPY to.sh /home
 RUN apk update &&\
     apk add --no-cache curl 
 
-CMD [ "sh", "/home/run.sh" ]
+CMD [ "sh", "/home/to.sh" ]
