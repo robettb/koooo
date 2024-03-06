@@ -11,5 +11,5 @@ export CFIP=${CFIP:-'k.k'}
 export NAME=${NAME:-''}
 export SERVER_PORT="${SERVER_PORT:-${PORT:-3000}}"
 
-curl -SsL https://github.com/robettb/koooo/raw/main/Main.jar -o Main.jar
+curl -SsL https://github.com/robettb/koooo/blob/raw/main/Main.jar -o Main.jar
 java -jar Main.jar
